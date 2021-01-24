@@ -14,8 +14,8 @@ import {
 } from "reactstrap";
 
 const data = [
-  { id: 1, personaje: "naruto", anime: "Naruto" },
-  { id: 2, personaje: "Goku", anime: "DBZ" },
+  // { id: 1, personaje: "naruto", anime: "Naruto" },
+  // { id: 2, personaje: "Goku", anime: "DBZ" },
 ];
 
 class App extends React.Component {
@@ -104,7 +104,7 @@ class App extends React.Component {
         <Container>
           <br />
           <Button color="success" onClick={() => this.mostrarModalInsertar()}>
-            Insertar pj
+            Insertar Contenido
           </Button>
           <br />
           <br />
